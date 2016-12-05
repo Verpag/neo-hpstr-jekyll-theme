@@ -5,7 +5,9 @@ description: "This is just a blog"
 tags: [Jekyll, theme, themes, responsive, blog, modern]
 comments: false
 ---
-
+<head>
+  <meta name="google-site-verification" content="CgOl2WrgA2PJkOSHE0JnL57dPSJ5YdcVvFpb8Jt2e2E" />
+</head>
 {% for post in paginator.posts %}
 <article class="hentry">
   <header>
@@ -31,7 +33,6 @@ comments: false
     {% else %}
       <h1 class="entry-title"><a href="{{ site.url }}{{ post.url }}" rel="bookmark" title="{{ post.title }}" itemprop="url">{{ post.title }}</a></h1>
     {% endif %}
-    <meta name="google-site-verification" content="CgOl2WrgA2PJkOSHE0JnL57dPSJ5YdcVvFpb8Jt2e2E" />
   </header>
   <div class="entry-content">
       {{ post.excerpt }}
