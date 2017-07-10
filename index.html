@@ -1,12 +1,9 @@
 ---
 layout: home
-title: "We are Fearless, Independent, Original"
-description: "This is just a blog"
+title: "Burak Tokgöz"
 tags: [Jekyll, theme, themes, responsive, blog, modern]
 comments: false
 ---
-
-  <meta name="google-site-verification" content="CgOl2WrgA2PJkOSHE0JnL57dPSJ5YdcVvFpb8Jt2e2E" />
 
 {% for post in paginator.posts %}
 <article class="hentry">
@@ -15,9 +12,7 @@ comments: false
       <div class="entry-image-index">
         <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}"><img src="{{ site.url }}/images/{{ post.image.feature }}" alt="{{ post.title }}"></a>
         {% if post.image.credit %}<div class="image-credit">Image source: <a target="_blank" href="{{ post.image.creditlink }}">{{ post.image.credit }}</a></div><!-- /.image-credit -->{% endif %}
-        <head>
-        <meta name="google-site-verification" content="CgOl2WrgA2PJkOSHE0JnL57dPSJ5YdcVvFpb8Jt2e2E" />
-        </head>
+
       </div><!-- /.entry-image -->
     {% endif %}
     <div class="entry-meta">
